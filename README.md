@@ -1,61 +1,31 @@
-# Proyecto CRUD con Angular, .NET Core, Entity Framework Core y SQL Server
+# Blog de Freelancer
 
-Este proyecto es una aplicación CRUD (Crear, Leer, Actualizar, Eliminar) desarrollada utilizando un stack tecnológico completo, que incluye **Angular 9** para el frontend, **.NET Core 3.1** para el backend, **Entity Framework Core 3.1** para el acceso a datos, y **SQL Server** para la base de datos. El proyecto está desplegado en **Azure** para el backend y en **Netlify** para el frontend.
+Este proyecto es un **blog de freelancer** estático creado utilizando únicamente **HTML5** y **CSS3**. El objetivo es ofrecer una demostración del diseño y la estructura de un blog para freelancers, que incluye publicaciones sobre consejos de freelancing, perfiles de freelancers y una sección de contacto.
 
 ## Descripción
 
-Este proyecto muestra cómo construir una aplicación web completa desde cero utilizando tecnologías modernas para el desarrollo frontend y backend. La aplicación incluye:
+El proyecto **Blog de Freelancer** simula un blog en línea dedicado a temas de freelancing. Los usuarios pueden explorar artículos y publicaciones que presentan el portafolio y recursos de un freelancer. El diseño está optimizado para ser visualizado tanto en dispositivos móviles como en pantallas grandes.
 
-- **Frontend**: Desarrollado con Angular 9, utilizando HTML, CSS, JavaScript y Bootstrap 4 para la creación de una interfaz de usuario interactiva.
-- **Backend**: Implementado con .NET Core 3.1, proporcionando una API RESTful con métodos GET, POST, PUT y DELETE.
-- **ORM**: Entity Framework Core 3.1 para el manejo de datos y la conexión con SQL Server.
-- **Base de Datos**: SQL Server para la gestión de datos persistentes.
-- **Deploy**: Implementación en Azure para el backend y en Netlify para el frontend.
+### Características Principales
+
+- Página principal con una lista de publicaciones recientes y destacadas.
+- Diseño responsive que asegura una buena experiencia en dispositivos móviles y pantallas grandes.
 
 ## Tecnologías Utilizadas
 
-- **Angular 9**: Para el desarrollo del frontend, incluyendo la creación de componentes, servicios y validación de formularios.
-- **HTML5 & CSS3**: Para la estructura y el diseño visual de la aplicación.
-- **JavaScript**: Para la lógica del frontend.
-- **Bootstrap 4**: Para un diseño responsive y estético.
-- **.NET Core 3.1**: Para el desarrollo del backend y la creación de la API.
-- **Entity Framework Core 3.1**: Para el mapeo objeto-relacional y la comunicación con SQL Server.
-- **SQL Server**: Para el almacenamiento de datos.
-- **Azure**: Para el despliegue del backend.
-- **Netlify**: Para el despliegue del frontend.
+- **HTML5**: Para la estructura y el contenido del sitio web.
+- **CSS3**: Para el diseño visual, incluyendo el layout, colores, tipografías y diseño responsive.
 
 ## Estructura del Proyecto
 
-El proyecto está dividido en dos partes principales:
+El proyecto está organizado en los siguientes archivos:
 
-### Frontend
+- **index.html**: Página principal del blog que muestra publicaciones recientes y destacadas.
+- **styles.css**: Archivo de estilos CSS que define el diseño y la apariencia del blog.
+- **img/**: Carpeta que contiene imágenes utilizadas en las publicaciones y otros elementos visuales.
 
-- **src/app/**: Contiene los módulos, componentes y servicios de Angular.
-- **src/assets/**: Carpeta para los archivos estáticos como imágenes y estilos.
-- **src/environments/**: Configuraciones para diferentes entornos (desarrollo y producción).
-- **styles.css**: Archivo de estilos globales para la aplicación.
+## Cómo Ejecutar el Proyecto
 
-### Backend
-
-- **Controllers/**: Contiene los controladores de la API.
-- **Models/**: Define las entidades del modelo de datos.
-- **Data/**: Contiene el contexto de Entity Framework y la configuración de la base de datos.
-- **Startup.cs**: Configuración de servicios y middleware.
-- **Program.cs**: Punto de entrada de la aplicación.
-
-## Instalación y Ejecución
-
-### Requisitos Previos
-
-- Angular CLI
-- Node.js
-- .NET Core SDK 3.1
-- SQL Server
-- Visual Studio 2019
-- VS Code (para el frontend)
-
-### Configuración del Frontend
-
-1. Clona este repositorio en tu máquina local:
+1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
    ```bash
-   git clone https://github.com/tuusuario/frontend-backend-project.git
+   git clone https://github.com/tuusuario/blog-freelancer.git
