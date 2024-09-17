@@ -1,6 +1,6 @@
 # Blog de Freelancer
 
-Este proyecto es un **blog de freelancer** estático creado utilizando únicamente **HTML5** y **CSS3**. El objetivo es ofrecer una demostración del diseño y la estructura de un blog para freelancers, que incluye publicaciones sobre consejos de freelancing, perfiles de freelancers y una sección de contacto.
+Este proyecto es un **blog de freelancer** estático creado utilizando únicamente **HTML5** y **CSS3**. El objetivo es ofrecer una demostración del diseño y la estructura de un blog para freelancers, que incluye una presentación y un formulario.
 
 ## Descripción
 
